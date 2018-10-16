@@ -5,22 +5,27 @@ class Rocket
     @flying = options[:flying] || false
   end
 
+  #tested
   def name
     @name
   end
 
+  #tested
   def name=(new_name)
     @name = new_name
   end
 
+  #tested
   def colour
     @colour
   end
 
+  #tested
   def colour=(new_colour)
     @colour = new_colour
   end
 
+  #tested
   def flying?
     @flying
   end
